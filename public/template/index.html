@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Flask-webpack-app </title>
+</head>
+	<body>
+		<h1 id='hi'> Hello World !! </h1>
+		
+		<script type="text/javascript" src="{{ url_for('static',filename='js/app.js') | safe }}" ></script>
+	</body>
+</html>
